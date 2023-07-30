@@ -1,0 +1,50 @@
+XC_XC_SOLAR_GENERATOR:
+  category: xc_xc_machine
+  generator-name: '&9星尘&7太阳能'
+  generator-lore:
+    - '&o“太阳能 芜湖”'
+    - ''
+    - '&3星辰工艺发电机'
+  block-type: WHITE_TERRACOTTA
+  stats:
+    energy-production:
+      day: 30000
+      night: 30000
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: CELESTIAL_PANEL
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: CELESTIAL_PANEL
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_POWER_MACHINE_FRAME
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: CELESTIAL_PANEL
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: CELESTIAL_PANEL
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1

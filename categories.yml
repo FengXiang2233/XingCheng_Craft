@@ -1,0 +1,39 @@
+xingcheng_craft:
+  type: nested
+  category-name: "&8星辰工艺"
+  category-item: FLINT
+xc_version_information:
+  type: sub
+  category-name: "&4版本信息"
+  category-item: PAPER
+  parent: xingcheng_craft
+xc_cl:
+  type: sub
+  category-name: "&f材料"
+  category-item: BRICK
+  parent: xingcheng_craft
+xc_gj:
+  type: sub
+  category-name: "&f工具"
+  category-item: STICK
+  parent: xingcheng_craft
+xc_machine_frame:
+  type: sub
+  category-name: "&f机器框架"
+  category-item: IRON_BLOCK
+  parent: xingcheng_craft
+xc_xc_machine:
+  type: sub
+  category-name: "&9星尘&f机器"
+  category-item: TERRACOTTA
+  parent: xingcheng_craft
+xc_integrated_machine:
+  type: sub
+  category-name: "&f一体机"
+  category-item: REDSTONE_LAMP
+  parent: xingcheng_craft
+xc_tips:
+  type: sub
+  category-name: "&o一些星辰工艺的提示"
+  category-item: PAPER
+  parent: xingcheng_craft

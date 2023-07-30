@@ -1,0 +1,13 @@
+XC_XC:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&9星尘"
+  item-lore:
+    - "&o星际中的尘埃"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: GUNPOWDER
+  max-deviation: 1
+  environment:
+    NORMAL: 1
+    THE_END: 2

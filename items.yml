@@ -1,0 +1,1507 @@
+XC_VERSION_NUMBER:
+  category: xc_version_information
+  item-type: CUSTOM
+  item-name: "&4版本号"
+  item-lore:
+    - "&8当前版本号为："
+    - "&oBETA1.1.5"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_UPDATE_INFORMATION:
+  category: xc_version_information
+  item-type: CUSTOM
+  item-name: "&3本版本更新内容："
+  item-lore:
+    - "&o-新增了版本信息展示"
+    - "&o-新增了一些工具"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_XC_CENTRIFUGE_TIPS:
+  category: xc_tips
+  item-type: CUSTOM
+  item-name: "&o该物品在星尘极高速离心机中获取"
+  item-lore:
+    - "&o星辰工艺提示"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_XC_SINGULARITY_CONSTRUCTOR_TIPS:
+  category: xc_tips
+  item-type: CUSTOM
+  item-name: "&o该物品在星尘坍塌引构机中获取"
+  item-lore:
+    - "&o星辰工艺提示"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_MF_JH:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&6魔法精华"
+  item-lore:
+    - "&o由纯净魔法凝聚而成"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: GOLD_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ENDER_LUMP_3
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: MAGIC_LUMP_3
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ENDER_LUMP_3
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MAGIC_LUMP_3
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MAGIC_SINGULARITY
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: MAGIC_LUMP_3
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ENDER_LUMP_3
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: MAGIC_LUMP_3
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ENDER_LUMP_3
+      amount: 1
+XC_CRUSHED_INFINITE_MACHINE_CORE:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&b被压坏的无尽机器核心"
+  item-lore:
+    - "&o被压坏乐"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: CRACKED_POLISHED_BLACKSTONE_BRICKS
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: COMPRESSOR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_XC_INGOT:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&9星尘锭"
+  item-lore:
+    - "&o由星际中的尘埃凝聚成的锭"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: BRICK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: XC_XC
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: XC_XC
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_MF_JH
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: XC_XC
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: XC_XC
+      amount: 1
+XC_XC_PLATE:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&9星尘板"
+  item-lore:
+    - "&o隐隐约约渗出星际之间的某种神秘力量"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: COMPRESSOR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: XC_XC_INGOT
+      amount: 8
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_XC_ARTIFACT:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&9星尘构件"
+  item-lore:
+    - "&o隐隐约约透出星际之间的某种神秘力量"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: POLISHED_BLACKSTONE_BUTTON
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: XC_XC_INGOT
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: XC_XC_INGOT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MACHINE_CIRCUIT
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: XC_XC_INGOT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: XC_XC_INGOT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+XC_XC_ROTOR:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&9星尘转子"
+  item-lore:
+    - "&o来自星辰的转力"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: CALCITE
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+XC_XC_MACHINE_FRAME:
+  category: xc_machine_frame
+  item-type: CUSTOM
+  item-name: "&9星尘&7机器框架"
+  item-lore:
+    - "&o一切星辰的起源"
+    - ""
+    - "&3星辰工艺机器框架"
+  item-id: TERRACOTTA
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_CRUSHED_INFINITE_MACHINE_CORE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+XC_XC_POWER_MACHINE_FRAME:
+  category: xc_machine_frame
+  item-type: CUSTOM
+  item-name: "&9星尘&7电力机器框架"
+  item-lore:
+    - "&o一切星辰电力的起源"
+    - ""
+    - "&3星辰工艺机器框架"
+  item-id: TERRACOTTA
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: VOID_CAPACITOR
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_CRUSHED_INFINITE_MACHINE_CORE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: XC_XC_MACHINE_FRAME
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+XC_XC_INTEGRATED_MACHINE_FRAME:
+  category: xc_machine_frame
+  item-type: CUSTOM
+  item-name: "&9星尘&7一体机机器框架"
+  item-lore:
+    - "&o一切星辰的起点"
+    - ""
+    - "&3星辰工艺机器框架"
+  item-id: TERRACOTTA
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id:  XC_XC_PLATE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_MACHINE_FRAME
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id:  XC_XC_PLATE
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+XC_PURE_URANIUM:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&2纯净的铀"
+  item-lore:
+    - "&o非常纯净几乎找不到一点杂质"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: CLAY_BALL
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: URANIUM
+      amount: 6
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_CENTRIFUGE_TIPS
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_IMPURITY:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&8杂质"
+  item-lore:
+    - "&o就一些杂质没什么好说的"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: GUNPOWDER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: URANIUM
+      amount: 6
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_CENTRIFUGE_TIPS
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_REDSTONE_ALLOY_SINGULARITY:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&c红石合金奇点"
+  item-lore:
+    - "&o？无尽中没这东西a"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: REDSTONE
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: REDSTONE_ALLOY
+      amount: 64
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_SINGULARITY_CONSTRUCTOR_TIPS
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_CARBONADO_SINGULARITY:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&9黑金刚石奇点"
+  item-lore:
+    - "&o？无尽中没这东西a"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: DIAMOND
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: CARBONADO
+      amount: 64
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_SINGULARITY_CONSTRUCTOR_TIPS
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_SYNTHETIC_EMERALD_SINGULARITY:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&a人造绿宝石奇点"
+  item-lore:
+    - "&o？无尽中没这东西a"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: EMERALD
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: SYNTHETIC_EMERALD
+      amount: 64
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_SINGULARITY_CONSTRUCTOR_TIPS
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_ELECTRO_MAGNET_SINGULARITY:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&e电磁铁奇点"
+  item-lore:
+    - "&o？无尽中没这东西a"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: IRON_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 64
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_SINGULARITY_CONSTRUCTOR_TIPS
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_SYNTHETIC_DIAMOND_SINGULARITY:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&b人造钻石奇点"
+  item-lore:
+    - "&o？无尽中没这东西a"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: DIAMOND
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: SYNTHETIC_DIAMOND
+      amount: 64
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_SINGULARITY_CONSTRUCTOR_TIPS
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_SYNTHETIC_SAPPHIRE_SINGULARITY:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&b人造蓝宝石奇点"
+  item-lore:
+    - "&o？无尽中没这东西a"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: LAPIS_LAZULI
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: SYNTHETIC_SAPPHIRE
+      amount: 64
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_SINGULARITY_CONSTRUCTOR_TIPS
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_REINFORCED_ALLOY_INGOT_SINGULARITY:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&b强化合金奇点"
+  item-lore:
+    - "&o？无尽中没这东西a"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: IRON_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 64
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_SINGULARITY_CONSTRUCTOR_TIPS
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_XC_CAPACITOR_CORE:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&c电容核心"
+  item-lore:
+    - "&oa？ 这是什么东西"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: SKULL87a7a894057d4a1ff22a161d76600f719da57916633f683808cf4d358bb73a21
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: MEDIUM_CAPACITOR
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_REDSTONE_ALLOY_SINGULARITY
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: LARGE_CAPACITOR
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: CARBONADO_EDGED_CAPACITOR
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+XC_XC_CRYSTAL_CORE:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&c水晶核心"
+  item-lore:
+    - "&oa？ 这是什么东西"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: SKULL188d404f5f1fb7ab2e80871d3f38587f5f3c68ab61dac4ab4aae5a00a3db1b80
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: XC_SYNTHETIC_SAPPHIRE_SINGULARITY
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: XC_SYNTHETIC_EMERALD_SINGULARITY
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: XC_SYNTHETIC_DIAMOND_SINGULARITY
+      amount: 1
+    4:
+      type: VANILLA
+      id: AMETHYST_SHARD
+      amount: 1
+    5:
+      type: VANILLA
+      id: AMETHYST_BLOCK
+      amount: 1
+    6:
+      type: VANILLA
+      id: AMETHYST_SHARD
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: XC_SYNTHETIC_DIAMOND_SINGULARITY
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: XC_SYNTHETIC_EMERALD_SINGULARITY
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: XC_SYNTHETIC_SAPPHIRE_SINGULARITY
+      amount: 1
+XC_SYNTHETIC_SAPPHIRE_SEED:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&b人造蓝宝石种子"
+  item-lore:
+    - "&o种子？"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: LAPIS_LAZULI
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: SYNTHETIC_SAPPHIRE
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_SYNTHETIC_EMERALD_SEED:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&a人造绿宝石种子"
+  item-lore:
+    - "&o种子？"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: EMERALD
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: SYNTHETIC_EMERALD
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_SYNTHETIC_DIAMOND_SEED:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&b人造钻石种子"
+  item-lore:
+    - "&o种子？"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: DIAMOND
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: SYNTHETIC_DIAMOND
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_AMETHYST_SEED:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&b紫水晶种子"
+  item-lore:
+    - "&o种子？"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: AMETHYST_SHARD
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: AMETHYST_SHARD
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_EXPERIENCE_MOSS:
+  category: xc_gj
+  item-type: SAVEDITEM
+  item-name: "配置自动忽略名称"
+  item-lore:
+    - "自动忽略lore"
+  item-id: EXPERIENCE_MOSS
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: BOOKSHELF
+      amount: 1
+    2:
+      type: VANILLA
+      id: MOSS_BLOCK
+      amount: 1
+    3:
+      type: VANILLA
+      id: ENCHANTING_TABLE
+      amount: 1
+    4:
+      type: VANILLA
+      id: EXPERIENCE_BOTTLE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_MF_JH
+      amount: 1
+    6:
+      type: VANILLA
+      id: EXPERIENCE_BOTTLE
+      amount: 1
+    7:
+      type: VANILLA
+      id: ENCHANTING_TABLE
+      amount: 1
+    8:
+      type: VANILLA
+      id: MOSS_BLOCK
+      amount: 1
+    9:
+      type: VANILLA
+      id: BOOKSHELF
+      amount: 1
+BAIKON_ROD:
+  category: xc_gj
+  item-type: SAVEDITEM
+  item-name: "配置自动忽略名称"
+  item-lore:
+    - "自动忽略lore"
+  item-id: BAIKON_ROD
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_INGOT
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: XC_XC_INGOT
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+EX_T-RN:
+  category: xc_gj
+  item-type: SAVEDITEM
+  item-name: "配置自动忽略名称"
+  item-lore:
+    - "自动忽略lore"
+  item-id: EX_T-RN
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
