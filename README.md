@@ -1,4 +1,4 @@
-# XingCheng_Craft
+# 星辰工艺
 星辰工艺是通过SlimeCustomizer插件写成的一份配置文件，旨在延长和拓展粘液科技线
 ## 前置插件需求
 - Slimefun
