@@ -4,7 +4,7 @@ XC_VERSION_NUMBER:
   item-name: "&4版本号"
   item-lore:
     - "&8当前版本号为："
-    - "&oBETA1.1.5"
+    - "&oBETA1.2.2"
   item-id: PAPER
   item-amount: 1
   placeable: false
@@ -46,13 +46,13 @@ XC_VERSION_NUMBER:
       type: NONE
       id: N/A
       amount: 1
-XC_UPDATE_INFORMATION:
+XC_GITHUD:
   category: xc_version_information
   item-type: CUSTOM
-  item-name: "&3本版本更新内容："
+  item-name: "&3本附属GitHub仓库："
   item-lore:
-    - "&o-新增了版本信息展示"
-    - "&o-新增了一些工具"
+    - "&ohttps://github.com/FengXiang2233/XingCheng_Craft"
+    - "&o版本更新日志请到GitHub对应版本的Releases页面查看"
   item-id: PAPER
   item-amount: 1
   placeable: false
@@ -1070,6 +1070,55 @@ XC_REINFORCED_ALLOY_INGOT_SINGULARITY:
       type: NONE
       id: N/A
       amount: 1
+XC_BLISTERING_INGOT_SINGULARITY:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&6起泡锭奇点"
+  item-lore:
+    - "&o？无尽中没这东西a"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: GOLD_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BLISTERING_INGOT_3
+      amount: 64
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_SINGULARITY_CONSTRUCTOR_TIPS
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
 XC_XC_CAPACITOR_CORE:
   category: xc_cl
   item-type: CUSTOM
@@ -1347,6 +1396,104 @@ XC_AMETHYST_SEED:
     5:
       type: NONE
       id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_DRACONIUM_DUST:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&5龙尘"
+  item-lore:
+    - "&o&b龙尘？"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: GUNPOWDER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: XC_XC
+      amount: 6
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_CENTRIFUGE_TIPS
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_MOLYBDENUM_DUST:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&7钼粉"
+  item-lore:
+    - "&o杂质出奇迹"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: GUNPOWDER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: XC_IMPURITY
+      amount: 6
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_CENTRIFUGE_TIPS
       amount: 1
     6:
       type: NONE
