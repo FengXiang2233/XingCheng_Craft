@@ -2,10 +2,10 @@ xingcheng_craft:
   type: nested
   category-name: "&8星辰工艺"
   category-item: FLINT
-xc_version_information:
+xc_information:
   type: sub
-  category-name: "&4版本信息"
-  category-item: PAPER
+  category-name: "&4信息"
+  category-item: SKULL16439d2e306b225516aa9a6d007a7e75edd2d5015d113b42f44be62a517e574f
   parent: xingcheng_craft
 xc_cl:
   type: sub
@@ -15,11 +15,11 @@ xc_cl:
 xc_gj:
   type: sub
   category-name: "&f工具"
-  category-item: STICK
+  category-item: NETHERITE_PICKAXE
   parent: xingcheng_craft
 xc_machine_frame:
   type: sub
-  category-name: "&f机器框架"
+  category-name: "&o机器框架"
   category-item: IRON_BLOCK
   parent: xingcheng_craft
 xc_xc_machine:
@@ -31,9 +31,4 @@ xc_integrated_machine:
   type: sub
   category-name: "&f一体机"
   category-item: REDSTONE_LAMP
-  parent: xingcheng_craft
-xc_tips:
-  type: sub
-  category-name: "&o一些星辰工艺的提示"
-  category-item: PAPER
   parent: xingcheng_craft

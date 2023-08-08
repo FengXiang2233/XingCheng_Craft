@@ -1,10 +1,10 @@
 XC_VERSION_NUMBER:
-  category: xc_version_information
+  category: xc_information
   item-type: CUSTOM
   item-name: "&4版本号"
   item-lore:
     - "&8当前版本号为："
-    - "&oBETA1.2.4"
+    - "&oBETA1.3.1"
   item-id: PAPER
   item-amount: 1
   placeable: false
@@ -47,7 +47,7 @@ XC_VERSION_NUMBER:
       id: N/A
       amount: 1
 XC_GITHUB:
-  category: xc_version_information
+  category: xc_information
   item-type: CUSTOM
   item-name: "&3本附属GitHub仓库："
   item-lore:
@@ -95,7 +95,7 @@ XC_GITHUB:
       id: N/A
       amount: 1
 XC_XC_CENTRIFUGE_TIPS:
-  category: xc_tips
+  category: xc_information
   item-type: CUSTOM
   item-name: "&o该物品在星尘极高速离心机中获取"
   item-lore:
@@ -142,7 +142,7 @@ XC_XC_CENTRIFUGE_TIPS:
       id: N/A
       amount: 1
 XC_XC_SINGULARITY_CONSTRUCTOR_TIPS:
-  category: xc_tips
+  category: xc_information
   item-type: CUSTOM
   item-name: "&o该物品在星尘坍塌引构机中获取"
   item-lore:
@@ -1090,6 +1090,55 @@ XC_BLISTERING_INGOT_SINGULARITY:
     2:
       type: SLIMEFUN
       id: BLISTERING_INGOT_3
+      amount: 64
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_SINGULARITY_CONSTRUCTOR_TIPS
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+XC_BASIC_CIRCUIT_BOARD_SINGULARITY:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&6电路板奇点"
+  item-lore:
+    - "&o？无尽中没这东西a"
+    - ""
+    - "&3星辰工艺材料"
+  item-id: ACTIVATOR_RAIL
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
       amount: 64
     3:
       type: NONE

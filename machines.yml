@@ -50,7 +50,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
@@ -70,7 +70,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: SLIMEFUN
@@ -90,7 +90,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: SLIMEFUN
@@ -110,7 +110,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: SLIMEFUN
@@ -130,7 +130,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '5':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: SLIMEFUN
@@ -150,7 +150,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '6':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: SLIMEFUN
@@ -170,7 +170,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '7':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: SLIMEFUN
@@ -190,7 +190,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '8':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: SLIMEFUN
@@ -210,7 +210,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '9':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: SLIMEFUN
@@ -230,7 +230,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '10':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
@@ -250,7 +250,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '11':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
@@ -270,7 +270,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '12':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
@@ -290,7 +290,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '13':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
@@ -310,7 +310,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '14':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
@@ -330,7 +330,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '15':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
@@ -350,7 +350,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '16':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
@@ -370,7 +370,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           id: N/A
           amount: 1
     '17':
-      speed-in-seconds: 15
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
@@ -549,6 +549,26 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
           type: NONE
           id: N/A
           amount: 1
+    '26':
+      speed-in-seconds: 100
+      input:
+        '1':
+          type: SLIMEFUN
+          id: BASIC_CIRCUIT_BOARD
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: XC_BASIC_CIRCUIT_BOARD_SINGULARITY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 XC_XC_CENTRIFUGE:
   category: xc_xc_machine
   machine-name: '&9星尘&7极高速离心机'
@@ -660,6 +680,257 @@ XC_XC_CENTRIFUGE:
           type: NONE
           id: N/A
           amount: 1
+XC_XC_ISOMERISM_MACHINE:
+  category: xc_xc_machine
+  machine-name: '&9星尘&7异构机'
+  machine-lore:
+  - '&b物品的有多种形式 你看到的可能只有一种'
+  - ''
+  - '&3星辰工艺机器'
+  block-type: RESPAWN_ANCHOR
+  progress-bar-item: RESPAWN_ANCHOR
+  stats:
+    energy-consumption: 2000
+    energy-buffer: 6000
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: XC_XC_MACHINE_FRAME
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 300
+      input:
+        '1':
+          type: SAVEDITEM
+          id: MXY-0
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: MXY-1
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 300
+      input:
+        '1':
+          type: SAVEDITEM
+          id: MXY-1
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: MXY-2
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 300
+      input:
+        '1':
+          type: SAVEDITEM
+          id: MXY-2
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: MXY-3
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      '3':
+        speed-in-seconds: 300
+        input:
+          '1':
+            type: SAVEDITEM
+            id: MXY-2
+            amount: 1
+          '2':
+            type: NONE
+            id: N/A
+            amount: 1
+        output:
+          '1':
+            type: SAVEDITEM
+            id: MXY-3
+            amount: 1
+          '2':
+            type: NONE
+            id: N/A
+            amount: 1
+    '4':
+      speed-in-seconds: 100
+      input:
+        '1':
+          type: VANILLA
+          id: PAINTING
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: PA-FI
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 100
+      input:
+        '1':
+          type: SAVEDITEM
+          id: PA-FI
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: PA-WA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 100
+      input:
+        '1':
+          type: SAVEDITEM
+          id: PA-WA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: PA-EA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 100
+      input:
+        '1':
+          type: SAVEDITEM
+          id: PA-EA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: PA-WI
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 12
+      input:
+        '1':
+          type: VANILLA
+          id: ROTTEN_FLESH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LEATHER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 12
+      input:
+        '1':
+          type: VANILLA
+          id: PAPER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NAME_TAG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 XC_XC_CRYSTALLINE_DEPOSITS:
   category: xc_xc_machine
   machine-name: '&9星尘&7晶体矿床'
@@ -712,7 +983,7 @@ XC_XC_CRYSTALLINE_DEPOSITS:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 25
+      speed-in-seconds: 5
       input:
         '1':
           type: SLIMEFUN
@@ -726,6 +997,66 @@ XC_XC_CRYSTALLINE_DEPOSITS:
         '1':
           type: SLIMEFUN
           id: SYNTHETIC_SAPPHIRE
+          amount: 3
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: SLIMEFUN
+          id: XC_SYNTHETIC_EMERALD_SEED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SYNTHETIC_EMERALD
+          amount: 3
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: SLIMEFUN
+          id: XC_SYNTHETIC_DIAMOND_SEED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SYNTHETIC_DIAMOND
+          amount: 3
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: SLIMEFUN
+          id: XC_AMETHYST_SEED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: AMETHYST_SHARD
           amount: 3
         '2':
           type: NONE
@@ -1159,6 +1490,117 @@ XC_XC_ENCHANTED_CONSTRUCTOR_MACHINE:
         '1':
           type: SAVEDITEM
           id: ENCHANTED_BOOK_PROTECTION-30
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+XC_XC_BLISTERING_INGOT_MAK_MACHINE:
+  category: xc_xc_machine
+  machine-name: '&9星尘&7起泡锭制造机'
+  machine-lore:
+  - '&b起泡锭制作机 好耶！'
+  - ''
+  - '&3星辰工艺机器'
+  block-type: SKULLb83cca31aff25e07ee4bb9962389de2ccd73b70d89364166237b0ff2e2b55b6d
+  progress-bar-item: REDSTONE
+  stats:
+    energy-consumption: 1500
+    energy-buffer: 5000
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: XC_XC_MACHINE_FRAME
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: XC_XC_ARTIFACT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HEATED_PRESSURE_CHAMBER_2
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: XC_BLISTERING_INGOT_SINGULARITY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HEATED_PRESSURE_CHAMBER_2
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BLISTERING_INGOT
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: SLIMEFUN
+          id: BLISTERING_INGOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BLISTERING_INGOT_2
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: SLIMEFUN
+          id: BLISTERING_INGOT_2
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BLISTERING_INGOT_3
           amount: 1
         '2':
           type: NONE
@@ -1669,26 +2111,6 @@ XC_XC_ROLLER:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 5
-      input:
-        '1':
-          type: SLIMEFUN
-          id: SYNTHETIC_EMERALD
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: SLIMEFUN
-          id: NTW_SYNTHETIC_EMERALD_SHARD
-          amount: 3
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '4':
       speed-in-seconds: 10
       input:
         '1':
@@ -1760,7 +2182,7 @@ XC_XC_REDSTONE_ALLOY_INTEGRATED_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 30
+      speed-in-seconds: 25
       input:
         '1':
           type: VANILLA
@@ -1831,7 +2253,7 @@ XC_XC_CARBONADO_INTEGRATED_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 30
+      speed-in-seconds: 25
       input:
         '1':
           type: VANILLA
@@ -1902,7 +2324,7 @@ XC_XC_ELECTRO_MAGNET_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 30
+      speed-in-seconds: 25
       input:
         '1':
           type: VANILLA
@@ -1973,7 +2395,7 @@ XC_XC_REINFORCED_ALLOY_INGOT_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 30
+      speed-in-seconds: 25
       input:
         '1':
           type: VANILLA
@@ -1992,9 +2414,9 @@ XC_XC_REINFORCED_ALLOY_INGOT_MACHINE:
           type: NONE
           id: N/A
           amount: 1
-XC_XC_BLISTERING_INGOT_MACHINE:
+XC_XC_BASIC_CIRCUIT_BOARD_MACHINE:
   category: xc_integrated_machine
-  machine-name: '&9星尘&7起泡锭一体机'
+  machine-name: '&9星尘&7电路板一体机'
   machine-lore:
   - '&o一体机 好耶'
   - ''
@@ -2036,7 +2458,7 @@ XC_XC_BLISTERING_INGOT_MACHINE:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: XC_BLISTERING_INGOT_SINGULARITY
+      id: XC_BASIC_CIRCUIT_BOARD_SINGULARITY
       amount: 1
     '9':
       type: SLIMEFUN
@@ -2044,7 +2466,7 @@ XC_XC_BLISTERING_INGOT_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 30
+      speed-in-seconds: 25
       input:
         '1':
           type: VANILLA
@@ -2057,7 +2479,7 @@ XC_XC_BLISTERING_INGOT_MACHINE:
       output:
         '1':
           type: SLIMEFUN
-          id: BLISTERING_INGOT_3
+          id: BASIC_CIRCUIT_BOARD
           amount: 1
         '2':
           type: NONE
@@ -2115,7 +2537,7 @@ XC_XC_INFINITE_INGOT_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 45
+      speed-in-seconds: 30
       input:
         '1':
           type: VANILLA

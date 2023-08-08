@@ -8,7 +8,7 @@ XC_XC_TOKAMAK:
   block-type: OCHRE_FROGLIGHT
   progress-bar-item: GLOWSTONE
   stats:
-    energy-production: 365000
+    energy-production: 498000
     energy-buffer: 9000000
   crafting-recipe-type: ANCIENT_ALTAR
   crafting-recipe:
