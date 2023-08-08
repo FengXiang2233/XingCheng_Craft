@@ -5,7 +5,6 @@
 - GuizhanLibPlugin
 - SlimeCustomizer
 - InfinityExpansion
-- Networks
 ## 关于
 星辰工艺适配版本
 - Minecraft版本：1.19+
