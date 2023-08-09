@@ -9,3 +9,7 @@
 星辰工艺适配版本
 - Minecraft版本：1.19+
 - 最新的SlimeCustomizer版本
+## bilibili
+https://www.bilibili.com/read/cv25521061
+## 爱发电
+https://afdian.net/a/XingCheng_Craft
