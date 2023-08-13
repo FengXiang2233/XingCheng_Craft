@@ -1,0 +1,53 @@
+XC_ENERGY_BINS:
+  category: xc_xc_machine
+  item-name: "&b能源垃圾桶"
+  item-lore:
+    - "&7这是个垃圾桶!"
+  block-type: SKULL441f4edbc68c9061355242bd73effc9299a3252b9f11e82b5f1ec7b3b6ac0
+  item-amount: 1
+  stats:
+    energy-consumption: 200000000
+    energy-buffer: 200000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    4:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XC_XC_CAPACITOR_CORE
+      amount: 1
+    6:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    7:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: AIR
+    amount: 1
