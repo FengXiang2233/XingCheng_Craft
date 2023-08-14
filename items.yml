@@ -4,7 +4,7 @@ XC_VERSION_NUMBER:
   item-name: "&4版本号"
   item-lore:
     - "&8当前版本号为："
-    - "&oBETA1.4.1-Alpha1"
+    - "&oBETA1.4-Alpha2"
   item-id: PAPER
   item-amount: 1
   placeable: false
@@ -599,7 +599,7 @@ XC_XC_INTEGRATED_MACHINE_FRAME:
       amount: 1
     2:
       type: SLIMEFUN
-      id: INFINITY_DUST_EXTRACTOR
+      id: DUST_EXTRACTOR
       amount: 1
     3:
       type: SLIMEFUN
@@ -1265,6 +1265,54 @@ XC_XC_CRYSTAL_CORE:
     9:
       type: SLIMEFUN
       id: XC_SYNTHETIC_SAPPHIRE_SINGULARITY
+      amount: 1
+XC_WJ_CORE:
+  category: xc_cl
+  item-type: CUSTOM
+  item-name: "&b无尽核心"
+  item-lore:
+    - ""
+    - "&3星辰工艺材料"
+  item-id: HEART_OF_THE_SEA
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: INFINITY_SINGULARITY
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: INFINITY_SINGULARITY
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: INFINITY_SINGULARITY
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: VOID_INGOT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: VOID_INGOT
       amount: 1
 XC_SYNTHETIC_SAPPHIRE_SEED:
   category: xc_cl
