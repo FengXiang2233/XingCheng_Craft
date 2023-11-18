@@ -10,7 +10,7 @@ XC_XC_SINGULARITY_CONSTRUCTOR:
   stats:
     energy-consumption: 13500
     energy-buffer: 50000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -581,19 +581,19 @@ XC_XC_CENTRIFUGE:
   stats:
     energy-consumption: 20000
     energy-buffer: 50000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '2':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_ARTIFACT
       amount: 1
     '3':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '4':
       type: SLIMEFUN
@@ -613,7 +613,7 @@ XC_XC_CENTRIFUGE:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '9':
       type: SLIMEFUN
@@ -680,257 +680,6 @@ XC_XC_CENTRIFUGE:
           type: NONE
           id: N/A
           amount: 1
-XC_XC_ISOMERISM_MACHINE:
-  category: xc_xc_machine
-  machine-name: '&9星尘&7异构机'
-  machine-lore:
-  - '&b物品的有多种形式 你看到的可能只有一种'
-  - ''
-  - '&3星辰工艺机器'
-  block-type: RESPAWN_ANCHOR
-  progress-bar-item: RESPAWN_ANCHOR
-  stats:
-    energy-consumption: 2000
-    energy-buffer: 6000
-  crafting-recipe-type: ANCIENT_ALTAR
-  crafting-recipe:
-    '1':
-      type: SLIMEFUN
-      id: XC_XC_ARTIFACT
-      amount: 1
-    '2':
-      type: SLIMEFUN
-      id: XC_XC_ARTIFACT
-      amount: 1
-    '3':
-      type: SLIMEFUN
-      id: XC_XC_ARTIFACT
-      amount: 1
-    '4':
-      type: SLIMEFUN
-      id: XC_XC_ARTIFACT
-      amount: 1
-    '5':
-      type: SLIMEFUN
-      id: XC_XC_MACHINE_FRAME
-      amount: 1
-    '6':
-      type: SLIMEFUN
-      id: XC_XC_ARTIFACT
-      amount: 1
-    '7':
-      type: SLIMEFUN
-      id: XC_XC_ARTIFACT
-      amount: 1
-    '8':
-      type: SLIMEFUN
-      id: XC_XC_ARTIFACT
-      amount: 1
-    '9':
-      type: SLIMEFUN
-      id: XC_XC_ARTIFACT
-      amount: 1
-  recipes:
-    '1':
-      speed-in-seconds: 300
-      input:
-        '1':
-          type: SAVEDITEM
-          id: MXY-0
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: SAVEDITEM
-          id: MXY-1
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '2':
-      speed-in-seconds: 300
-      input:
-        '1':
-          type: SAVEDITEM
-          id: MXY-1
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: SAVEDITEM
-          id: MXY-2
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '3':
-      speed-in-seconds: 300
-      input:
-        '1':
-          type: SAVEDITEM
-          id: MXY-2
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: SAVEDITEM
-          id: MXY-3
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      '3':
-        speed-in-seconds: 300
-        input:
-          '1':
-            type: SAVEDITEM
-            id: MXY-2
-            amount: 1
-          '2':
-            type: NONE
-            id: N/A
-            amount: 1
-        output:
-          '1':
-            type: SAVEDITEM
-            id: MXY-3
-            amount: 1
-          '2':
-            type: NONE
-            id: N/A
-            amount: 1
-    '4':
-      speed-in-seconds: 100
-      input:
-        '1':
-          type: VANILLA
-          id: PAINTING
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: SAVEDITEM
-          id: PA-FI
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '5':
-      speed-in-seconds: 100
-      input:
-        '1':
-          type: SAVEDITEM
-          id: PA-FI
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: SAVEDITEM
-          id: PA-WA
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '6':
-      speed-in-seconds: 100
-      input:
-        '1':
-          type: SAVEDITEM
-          id: PA-WA
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: SAVEDITEM
-          id: PA-EA
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '7':
-      speed-in-seconds: 100
-      input:
-        '1':
-          type: SAVEDITEM
-          id: PA-EA
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: SAVEDITEM
-          id: PA-WI
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '8':
-      speed-in-seconds: 12
-      input:
-        '1':
-          type: VANILLA
-          id: ROTTEN_FLESH
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: LEATHER
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '9':
-      speed-in-seconds: 12
-      input:
-        '1':
-          type: VANILLA
-          id: PAPER
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: NAME_TAG
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
 XC_XC_CRYSTALLINE_DEPOSITS:
   category: xc_xc_machine
   machine-name: '&9星尘&7晶体矿床'
@@ -943,7 +692,7 @@ XC_XC_CRYSTALLINE_DEPOSITS:
   stats:
     energy-consumption: 1500
     energy-buffer: 5000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -1074,7 +823,7 @@ XC_XC_STRANGE_NETHER_GOO_TRADE_MACHINE:
   stats:
     energy-consumption: 1500
     energy-buffer: 5000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -1102,7 +851,7 @@ XC_XC_STRANGE_NETHER_GOO_TRADE_MACHINE:
       amount: 1
     '7':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '8':
       type: SLIMEFUN
@@ -1110,7 +859,7 @@ XC_XC_STRANGE_NETHER_GOO_TRADE_MACHINE:
       amount: 1
     '9':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
   recipes:
     '1':
@@ -1145,7 +894,7 @@ XC_XC_RUNE_MAK_MACHINE:
   stats:
     energy-consumption: 1500
     energy-buffer: 5000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -1157,7 +906,7 @@ XC_XC_RUNE_MAK_MACHINE:
       amount: 1
     '3':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '4':
       type: SLIMEFUN
@@ -1177,7 +926,7 @@ XC_XC_RUNE_MAK_MACHINE:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '9':
       type: SLIMEFUN
@@ -1396,7 +1145,7 @@ XC_XC_ENCHANTED_CONSTRUCTOR_MACHINE:
   stats:
     energy-consumption: 3000
     energy-buffer: 18000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -1497,7 +1246,7 @@ XC_XC_ENCHANTED_CONSTRUCTOR_MACHINE:
           amount: 1
 XC_XC_DOPING_MASS_TRANSFORMER_METER:
   category: xc_xc_machine
-  machine-name: '&9星尘&b参量质变仪'
+  machine-name: '&9星尘&b掺量质变仪'
   machine-lore:
   - '&7等等 这名字有点眼熟'
   - ''
@@ -1507,7 +1256,7 @@ XC_XC_DOPING_MASS_TRANSFORMER_METER:
   stats:
     energy-consumption: 3000
     energy-buffer: 18000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -1539,7 +1288,7 @@ XC_XC_DOPING_MASS_TRANSFORMER_METER:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '9':
       type: SLIMEFUN
@@ -1578,19 +1327,19 @@ XC_XC_BLISTERING_INGOT_MAK_MACHINE:
   stats:
     energy-consumption: 1500
     energy-buffer: 5000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '2':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '3':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '4':
       type: SLIMEFUN
@@ -1689,11 +1438,11 @@ XC_XC_CAPACITOR_MAK_MACHINE:
   stats:
     energy-consumption: 1500
     energy-buffer: 5000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '2':
       type: SLIMEFUN
@@ -1701,7 +1450,7 @@ XC_XC_CAPACITOR_MAK_MACHINE:
       amount: 1
     '3':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '4':
       type: SLIMEFUN
@@ -1717,7 +1466,7 @@ XC_XC_CAPACITOR_MAK_MACHINE:
       amount: 1
     '7':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '8':
       type: VANILLA
@@ -1725,7 +1474,7 @@ XC_XC_CAPACITOR_MAK_MACHINE:
       amount: 1
     '9':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
   recipes:
     '1':
@@ -1860,7 +1609,7 @@ XC_XC_CARGO_MAK_MACHINE:
   stats:
     energy-consumption: 1500
     energy-buffer: 5000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -2011,7 +1760,7 @@ XC_XC_CRYSTALLIZATION_REACTION_CHAMBER:
   stats:
     energy-consumption: 1500
     energy-buffer: 5000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -2102,11 +1851,11 @@ XC_XC_NUCLEAR_DECAY_MACHINE:
   stats:
     energy-consumption: 1500
     energy-buffer: 5000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '2':
       type: SLIMEFUN
@@ -2114,7 +1863,7 @@ XC_XC_NUCLEAR_DECAY_MACHINE:
       amount: 1
     '3':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '4':
       type: SLIMEFUN
@@ -2130,7 +1879,7 @@ XC_XC_NUCLEAR_DECAY_MACHINE:
       amount: 1
     '7':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '8':
       type: SLIMEFUN
@@ -2138,7 +1887,7 @@ XC_XC_NUCLEAR_DECAY_MACHINE:
       amount: 1
     '9':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
   recipes:
     '1':
@@ -2193,7 +1942,7 @@ XC_XC_ROLLER:
   stats:
     energy-consumption: 1500
     energy-buffer: 5000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: VANILLA
@@ -2298,7 +2047,7 @@ XC_XC_ROLLER:
         '1':
           type: SLIMEFUN
           id: XC_XC_INGOT
-          amount: 6
+          amount: 3
         '2':
           type: NONE
           id: N/A
@@ -2307,7 +2056,229 @@ XC_XC_ROLLER:
         '1':
           type: SLIMEFUN
           id: XC_XC_PLATE
+          amount: 3
+        '2':
+          type: NONE
+          id: N/A
           amount: 1
+XC_XC_FISH_TART:
+  category: xc_xc_machine
+  machine-name: '&9星尘&7鱼塔'
+  machine-lore:
+  - '&o鱼?塔?'
+  - ''
+  - '&3星辰工艺机器'
+  block-type: SKULL7332dd55462c6db86a18e8ce4de9f3b5e2f9d23cbf398fc7d7b6598f9ab56e9f
+  progress-bar-item: COD
+  stats:
+    energy-consumption: 1500
+    energy-buffer: 5000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_WATER
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_WATER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_WATER
+      amount: 1
+    '4':
+      type: VANILLA
+      id: COD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: XC_XC_MACHINE_FRAME
+      amount: 1
+    '6':
+      type: VANILLA
+      id: COD
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: XC_XC_INGOT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: XC_XC_INGOT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: XC_XC_INGOT
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: COD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COD
+          amount: 64
+        '2':
+          type: VANILLA
+          id: COD
+          amount: 64
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: SALMON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SALMON
+          amount: 64
+        '2':
+          type: VANILLA
+          id: SALMON
+          amount: 64
+    '3':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: TROPICAL_FISH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TROPICAL_FISH
+          amount: 64
+        '2':
+          type: VANILLA
+          id: TROPICAL_FISH
+          amount: 64
+    '4':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: PUFFERFISH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PUFFERFISH
+          amount: 64
+        '2':
+          type: VANILLA
+          id: PUFFERFISH
+          amount: 64
+XC_XH_DOPING_MASS_TRANSFORMER_METER:
+  category: xc_xh_machine
+  machine-name: '&1星辉&b掺量质变仪'
+  machine-lore:
+  - '&7等等 这名字有点眼熟'
+  - ''
+  - '&3星辰工艺机器'
+  block-type: BEACON
+  progress-bar-item: BEACON
+  stats:
+    energy-consumption: 4500
+    energy-buffer: 18000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: XC_XH_ARTIFACT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: XC_XH_PLATE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: XC_XH_ARTIFACT
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: XC_XH_ARTIFACT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: XC_XC_DOPING_MASS_TRANSFORMER_METER
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: XC_XH_ARTIFACT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: XC_XH_ARTIFACT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: XC_XH_MACHINE_FRAME
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: XC_XH_ARTIFACT
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 8
+        '2':
+          type: SLIMEFUN
+          id: MACHINE_CIRCUIT
+          amount: 8
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_MACHINE_CIRCUIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: SLIMEFUN
+          id: XC_DRACONIUM_DUST
+          amount: 2
+        '2':
+          type: SLIMEFUN
+          id: XC_MOLYBDENUM_DUST
+          amount: 3
+      output:
+        '1':
+          type: SLIMEFUN
+          id: XC_XC
+          amount: 18
         '2':
           type: NONE
           id: N/A
@@ -2324,7 +2295,7 @@ XC_XC_REDSTONE_ALLOY_INTEGRATED_MACHINE:
   stats:
     energy-consumption: 38000
     energy-buffer: 150000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -2395,7 +2366,7 @@ XC_XC_CARBONADO_INTEGRATED_MACHINE:
   stats:
     energy-consumption: 38000
     energy-buffer: 150000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -2466,7 +2437,7 @@ XC_XC_ELECTRO_MAGNET_MACHINE:
   stats:
     energy-consumption: 38000
     energy-buffer: 150000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -2537,7 +2508,7 @@ XC_XC_REINFORCED_ALLOY_INGOT_MACHINE:
   stats:
     energy-consumption: 38000
     energy-buffer: 150000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -2608,7 +2579,7 @@ XC_XC_BASIC_CIRCUIT_BOARD_MACHINE:
   stats:
     energy-consumption: 38000
     energy-buffer: 150000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -2679,7 +2650,7 @@ XC_XC_INFINITE_INGOT_MACHINE:
   stats:
     energy-consumption: 38000
     energy-buffer: 150000
-  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN

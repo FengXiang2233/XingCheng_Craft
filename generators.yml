@@ -14,7 +14,7 @@ XC_XC_TOKAMAK:
   crafting-recipe:
     '1':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '2':
       type: SLIMEFUN
@@ -22,7 +22,7 @@ XC_XC_TOKAMAK:
       amount: 1
     '3':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '4':
       type: SLIMEFUN
@@ -42,7 +42,7 @@ XC_XC_TOKAMAK:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: XC_XC_PLATE
+      id: XC_XC_INGOT
       amount: 1
     '9':
       type: SLIMEFUN
