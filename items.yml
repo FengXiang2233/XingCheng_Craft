@@ -4,7 +4,7 @@ XC_VERSION_NUMBER:
   item-name: "&4版本号"
   item-lore:
     - "&8当前版本号为："
-    - "&oBETA2.0"
+    - "&oBETA2.1-ALPHA1[对于1.18的兼容性更新]"
   item-id: PAPER
   item-amount: 1
   placeable: false

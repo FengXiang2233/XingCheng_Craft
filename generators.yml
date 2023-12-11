@@ -5,7 +5,7 @@ XC_XC_TOKAMAK:
   - '&o“人造太阳”'
   - ''
   - '&3星辰工艺发电机'
-  block-type: OCHRE_FROGLIGHT
+  block-type: SHROOMLIGHT
   progress-bar-item: GLOWSTONE
   stats:
     energy-production: 498000
