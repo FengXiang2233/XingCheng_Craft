@@ -8,8 +8,8 @@ XC_XC_TOKAMAK:
   block-type: SHROOMLIGHT
   progress-bar-item: GLOWSTONE
   stats:
-    energy-production: 498000
-    energy-buffer: 9000000
+    energy-production: 60000
+    energy-buffer: 6000000
   crafting-recipe-type: ANCIENT_ALTAR
   crafting-recipe:
     '1':
@@ -55,6 +55,67 @@ XC_XC_TOKAMAK:
         type: SLIMEFUN
         id: XC_PURE_URANIUM
         amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: N/A
+XC_XC_DUST_EXCITER:
+  category: xc_xc_machine
+  generator-name: '&9星尘&7粉尘激化器'
+  generator-lore:
+  - '&o将粉尘激发出强大能量'
+  - ''
+  - '&3星辰工艺发电机'
+  block-type: BASALT
+  progress-bar-item: GUNPOWDER
+  stats:
+    energy-production: 35000
+    energy-buffer: 6000000
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: XC_XC
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: XC_XC
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: XC_XC
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: XC_XC_POWER_MACHINE_FRAME
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: XC_XC
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: XC_XC_INGOT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: XC_XC_PLATE
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 5
+      input:
+        type: SLIMEFUN
+        id: VOID_DUST
+        amount: 16
       output:
         type: NONE
         id: N/A

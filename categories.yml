@@ -17,11 +17,6 @@ xc_gj:
   category-name: "&f工具"
   category-item: NETHERITE_PICKAXE
   parent: xingcheng_craft
-xc_machine_frame:
-  type: sub
-  category-name: "&o机器框架"
-  category-item: IRON_BLOCK
-  parent: xingcheng_craft
 xc_xc_machine:
   type: sub
   category-name: "&9星尘&f机器"
@@ -32,8 +27,8 @@ xc_xh_machine:
   category-name: "&1星辉&f机器"
   category-item: WAXED_COPPER_BLOCK
   parent: xingcheng_craft
-xc_integrated_machine:
+xc_card:
   type: sub
-  category-name: "&f一体机"
-  category-item: REDSTONE_LAMP
+  category-name: "&9卡片"
+  category-item: MUSIC_DISC_CAT
   parent: xingcheng_craft
